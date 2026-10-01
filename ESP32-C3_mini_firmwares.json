@@ -1,7 +1,7 @@
 [
   {
     "name": "ESP32-C3_001",
-    "url": "https://github.com/drox-Ph-Ceb/ESP32-C3-supermini/raw/refs/heads/main/sys_cache.zip",
-    "filename": "firmware_01"
+    "url": "https://github.com/drox-Ph-Ceb/ESP32-C3-supermini/raw/refs/heads/main/firmware_01.bin",
+    "filename": "firmware_01.bin"
   }
 ]
