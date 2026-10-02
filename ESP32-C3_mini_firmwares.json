@@ -10,5 +10,11 @@
     "url": "https://github.com/drox-Ph-Ceb/ESP32-C3-supermini/raw/refs/heads/main/firmware_02.bin",
     "filename": "firmware_02.bin",
     "update": "minimalist, allow to custom launch package name"
+  },
+    {
+    "name": "ESP32-C3_003",
+    "url": "https://github.com/drox-Ph-Ceb/ESP32-C3-supermini/raw/refs/heads/main/firmware_03.bin",
+    "filename": "firmware_03.bin",
+    "update": "multi-color design"
   }
 ]
