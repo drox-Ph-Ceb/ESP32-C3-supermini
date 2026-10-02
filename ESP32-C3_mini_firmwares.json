@@ -5,3 +5,10 @@
     "filename": "firmware_01.bin"
   }
 ]
+[
+  {
+    "name": "ESP32-C3_002",
+    "url": "https://github.com/drox-Ph-Ceb/ESP32-C3-supermini/raw/refs/heads/main/firmware_02.bin",
+    "filename": "firmware_02.bin"
+  }
+]
