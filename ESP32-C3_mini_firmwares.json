@@ -16,5 +16,11 @@
     "url": "https://github.com/drox-Ph-Ceb/ESP32-C3-supermini/raw/refs/heads/main/firmware_03.bin",
     "filename": "firmware_03.bin",
     "update": "multi-color design"
+  },
+    {
+    "name": "ESP32-C3_004",
+    "url": "https://github.com/drox-Ph-Ceb/ESP32-C3-supermini/raw/refs/heads/main/firmware_04.bin",
+    "filename": "firmware_04.bin",
+    "update": "A portal that never goes down, automatically switches to backup Wi-Fi networks if clicked reboot"
   }
 ]
