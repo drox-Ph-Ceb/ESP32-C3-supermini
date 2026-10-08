@@ -1,38 +1,38 @@
 [
   {
     "name": "ESP32-C3_001",
-    "url": "https://github.com/drox-Ph-Ceb/ESP32-C3-supermini/raw/refs/heads/main/firmware_01.bin",
+    "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/firmware_01.bin",
     "filename": "firmware_01.bin",
     "update": "glass-style, many functions, auto connect main wifi"
   },
   {
     "name": "ESP32-C3_002",
-    "url": "https://github.com/drox-Ph-Ceb/ESP32-C3-supermini/raw/refs/heads/main/firmware_02.bin",
+    "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/firmware_02.bin",
     "filename": "firmware_02.bin",
     "update": "minimalist, allow to custom launch package name"
   },
-    {
+  {
     "name": "ESP32-C3_003",
-    "url": "https://github.com/drox-Ph-Ceb/ESP32-C3-supermini/raw/refs/heads/main/firmware_03.bin",
+    "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/firmware_03.bin",
     "filename": "firmware_03.bin",
     "update": "multi-color design"
   },
-    {
+  {
     "name": "ESP32-C3_004",
-    "url": "https://github.com/drox-Ph-Ceb/ESP32-C3-supermini/raw/refs/heads/main/firmware_04.bin",
+    "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/firmware_04.bin",
     "filename": "firmware_04.bin",
     "update": "A portal that never goes down, automatically switches to backup Wi-Fi networks if clicked reboot"
   },  
-    {
+  {
     "name": "ESP32-C3_005",
-    "url": "https://github.com/drox-Ph-Ceb/ESP32-C3-supermini/raw/refs/heads/main/firmware_05.bin",
+    "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/firmware_05.bin",
     "filename": "firmware_05.bin",
     "update": "Portal Password: 00000000"
   },  
-    {
+  {
     "name": "ESP32-C3_01_Special_Edition",
-    "url": "https://github.com/drox-Ph-Ceb/ESP32-C3-supermini/raw/refs/heads/main/ESP32-c3_firmware01.bin",
-    "filename": "ESP32-C3 Secured_01",
+    "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-c3_firmware01.bin",
+    "filename": "ESP32-C3_Secured_01.bin",
     "update": "Auto Use Browser for browse, Special Edition FRP Bypass"
   }
 ]
