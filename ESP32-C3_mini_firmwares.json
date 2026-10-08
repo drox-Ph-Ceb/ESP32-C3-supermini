@@ -31,7 +31,7 @@
   },  
     {
     "name": "ESP32-C3_01_Special_Edition",
-    "url": "https://github.com/drox-Ph-Ceb/ESP32-C3-supermini/raw/refs/heads/main/ESP32-c3_firmware_01.bin",
+    "url": "https://github.com/drox-Ph-Ceb/ESP32-C3-supermini/raw/refs/heads/main/ESP32-c3_firmware01.bin",
     "filename": "ESP32-C3 Secured_01",
     "update": "Auto Use Browser for browse, Special Edition FRP Bypass"
   }
