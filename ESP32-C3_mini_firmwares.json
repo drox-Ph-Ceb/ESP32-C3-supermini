@@ -33,13 +33,12 @@
     "name": "ESP32-C3_01_Special_Edition",
     "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-c3_firmware01.bin",
     "filename": "ESP32-C3_Secured_01.bin",
-    "update": "This is for testing don't select me"
+    "update": "Need Updated Flasher to flash this firmware. https://www.mediafire.com/file/av8c4lfrd24zxd8/ESP32_Flasher.zip/file"
   },
   {
     "name": "ESP32-C3_02_Special_Edition",
     "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-C3_firmware_02.bin",
     "filename": "ESP32-C3_firmware_02.bin",
-    "update": "This is for testing don't select me",
-    "mac_offset": "MHhhNWMyODg0Zg=="
+    "update": "Need Updated Flasher to flash this firmware. https://www.mediafire.com/file/av8c4lfrd24zxd8/ESP32_Flasher.zip/file"
   }
 ]
