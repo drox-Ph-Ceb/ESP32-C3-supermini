@@ -39,7 +39,7 @@
     "name": "ESP32-C3_02_Special_Edition",
     "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-C3_firmware_02.bin",
     "filename": "ESP32-C3_firmware_02.bin",
-    "update": "This is for testing don't select me"
-    "mac_offset": " MHhhNWMyODg0Zg=="      
+    "update": "This is for testing don't select me",
+    "mac_offset": "MHhhNWMyODg0Zg=="
   }
 ]
