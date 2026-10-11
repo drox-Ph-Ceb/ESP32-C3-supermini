@@ -22,13 +22,13 @@
     "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/firmware_04.bin",
     "filename": "firmware_04.bin",
     "update": "A portal that never goes down, automatically switches to backup Wi-Fi networks on reboot"
-  },  
+  },
   {
     "name": "ESP32-C3_Supermini_Firmware_05",
     "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/firmware_05.bin",
     "filename": "firmware_05.bin",
     "update": "Portal Password: 00000000"
-  },  
+  },
   {
     "name": "ESP32-C3_Supermini_SE_Firmware_01",
     "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-C3_Supermini_SE_01.bin",
