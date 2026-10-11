@@ -1,56 +1,56 @@
 [
   {
-    "name": "ESP32-C3_Supermini_firmware_01",
+    "name": "ESP32-C3_Supermini_Firmware_01",
     "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/firmware_01.bin",
     "filename": "firmware_01.bin",
-    "update": "glass-style, many functions, auto connect main wifi"
+    "update": "Glass-style UI, many functions, auto-connect to main Wi-Fi"
   },
   {
-    "name": "ESP32-C3_Supermini_firmware_02",
+    "name": "ESP32-C3_Supermini_Firmware_02",
     "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/firmware_02.bin",
     "filename": "firmware_02.bin",
-    "update": "minimalist, allow to custom launch package name"
+    "update": "Minimalist design, allows custom package name launch"
   },
   {
-    "name": "ESP32-C3_Supermini_firmware_03",
+    "name": "ESP32-C3_Supermini_Firmware_03",
     "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/firmware_03.bin",
     "filename": "firmware_03.bin",
-    "update": "multi-color design"
+    "update": "Multi-color design"
   },
   {
-    "name": "ESP32-C3_Supermini_firmware_04",
+    "name": "ESP32-C3_Supermini_Firmware_04",
     "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/firmware_04.bin",
     "filename": "firmware_04.bin",
-    "update": "A portal that never goes down, automatically switches to backup Wi-Fi networks if clicked reboot"
+    "update": "A portal that never goes down, automatically switches to backup Wi-Fi networks on reboot"
   },  
   {
-    "name": "ESP32-C3_Supermini_firmware_05",
+    "name": "ESP32-C3_Supermini_Firmware_05",
     "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/firmware_05.bin",
     "filename": "firmware_05.bin",
     "update": "Portal Password: 00000000"
   },  
   {
-    "name": "ESP32-C3_Supermini_SE_firmware_01",
-    "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-c3_firmware01.bin",
-    "filename": "ESP32-c3_firmware01.bin",
-    "update": "Need Updated Flasher to flash this firmware. https://www.mediafire.com/file/av8c4lfrd24zxd8/ESP32_Flasher.zip/file"
+    "name": "ESP32-C3_Supermini_SE_Firmware_01",
+    "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-C3_Supermini_SE_01.bin",
+    "filename": "ESP32-C3_Supermini_SE_01.bin",
+    "update": "Requires Updated Flasher: https://www.mediafire.com/file/av8c4lfrd24zxd8/ESP32_Flasher.zip/file"
   },
   {
-    "name": "ESP32-C3_Supermini_SE_firmware_02",
-    "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-C3_firmware_02.bin",
-    "filename": "ESP32-C3_firmware_02.bin",
-    "update": "Need Updated Flasher to flash this firmware. https://www.mediafire.com/file/av8c4lfrd24zxd8/ESP32_Flasher.zip/file"
+    "name": "ESP32-C3_Supermini_SE_Firmware_02",
+    "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-C3_Supermini_SE_02.bin",
+    "filename": "ESP32-C3_Supermini_SE_02.bin",
+    "update": "Requires Updated Flasher: https://www.mediafire.com/file/av8c4lfrd24zxd8/ESP32_Flasher.zip/file"
   },
   {
-    "name": "ESP32-C3_Supermini_SE_firmware_03",
+    "name": "ESP32-C3_Supermini_SE_Firmware_03",
     "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-C3_Supermini_SE_03.bin",
     "filename": "ESP32-C3_Supermini_SE_03.bin",
-    "update": "Need Updated Flasher to flash this firmware. https://www.mediafire.com/file/av8c4lfrd24zxd8/ESP32_Flasher.zip/file"
+    "update": "Requires Updated Flasher: https://www.mediafire.com/file/av8c4lfrd24zxd8/ESP32_Flasher.zip/file"
   },
   {
-    "name": "ESP32D0WDV3_Firmware_SE_01",
+    "name": "ESP32-D0WD-V3_SE_Firmware_01",
     "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32D0WDV3_firmware_01.bin",
     "filename": "ESP32D0WDV3_firmware_01.bin",
-    "update": "Need Updated Flasher to flash this firmware. https://www.mediafire.com/file/av8c4lfrd24zxd8/ESP32_Flasher.zip/file"
+    "update": "Requires Updated Flasher: https://www.mediafire.com/file/av8c4lfrd24zxd8/ESP32_Flasher.zip/file"
   }
 ]
