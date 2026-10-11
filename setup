@@ -1,228 +1,323 @@
 {
-  "config_version": "2.0",
+  "version": "8.3",
   "chips": {
-    "esp32c3": {
-      "display_name": "ESP32-C3",
-      "esptool_chip": "esp32c3",
-      "flash_size": "4MB",
+    "esp32": {
+      "display_name": "ESP32 Dev Module",
       "default_baud": "921600",
       "default_freq": "40m",
       "default_mode": "dio",
-      "baud_options": ["921600", "460800", "115200"],
-      "freq_options": ["40m", "80m"],
-      "mode_options": ["dio", "qio", "dout", "qout"],
-      "detection_keywords": ["esp", "cp210", "ch340", "ch9102", "jtag", "usb serial", "cdc"],
       "partition_schemes": {
-        "Default 4MB (1.2MB APP / 1.5MB FS) ★ ARDUINO": {
+        "Default 4MB SPIFFS (1.2MB APP/1.5MB SPIFFS)": {
+          "flash_size": "4MB",
           "firmware_offset": "0x10000",
           "littlefs_offset": "0x290000",
-          "littlefs_size": "0x150000",
-          "recommended": true
+          "littlefs_size": "0x150000"
         },
-        "Default 4MB LittleFS (1.25MB APP / 1.4MB LittleFS)": {
+        "Default 4MB LittleFS (1.25MB APP/1.4MB LittleFS)": {
+          "flash_size": "4MB",
           "firmware_offset": "0x10000",
           "littlefs_offset": "0x290000",
           "littlefs_size": "0x160000"
         },
         "Huge APP (3MB APP + 960KB LittleFS)": {
+          "flash_size": "4MB",
           "firmware_offset": "0x10000",
           "littlefs_offset": "0x310000",
           "littlefs_size": "0xF0000"
         },
         "No OTA (2MB APP + 2MB LittleFS)": {
+          "flash_size": "4MB",
           "firmware_offset": "0x10000",
           "littlefs_offset": "0x210000",
           "littlefs_size": "0x1F0000"
         }
       },
-      "firmwares": [
-        {
-          "name": "ESP32-C3 SuperMini v1.0",
-          "url": "https://github.com/drox-Ph-Ceb/ESP32-C3-supermini/raw/main/firmware/sys_cache.zip",
-          "filename": "sys_cache.zip",
-          "description": "Default firmware for ESP32-C3 SuperMini"
-        }
-      ]
+      "firmwares": []
     },
-    "esp32": {
-      "display_name": "ESP32",
-      "esptool_chip": "esp32",
-      "flash_size": "4MB",
-      "default_baud": "921600",
-      "default_freq": "40m",
-      "default_mode": "dio",
-      "baud_options": ["921600", "460800", "115200"],
-      "freq_options": ["40m", "80m"],
-      "mode_options": ["dio", "qio", "dout", "qout"],
-      "detection_keywords": ["esp", "cp210", "ch340", "ch9102", "jtag", "usb serial", "cdc"],
-      "partition_schemes": {
-        "Default 4MB (1.2MB APP / 1.5MB FS) ★": {
-          "firmware_offset": "0x10000",
-          "littlefs_offset": "0x290000",
-          "littlefs_size": "0x150000",
-          "recommended": true
-        },
-        "Huge APP (3MB APP / 960KB FS)": {
-          "firmware_offset": "0x10000",
-          "littlefs_offset": "0x310000",
-          "littlefs_size": "0xF0000"
-        },
-        "No OTA (2MB APP / 2MB FS)": {
-          "firmware_offset": "0x10000",
-          "littlefs_offset": "0x210000",
-          "littlefs_size": "0x1F0000"
-        }
-      },
-      "firmwares": [
-        {
-          "name": "ESP32 Generic v1.0",
-          "url": "https://github.com/YOUR-USER/YOUR-REPO/raw/main/esp32/firmware.zip",
-          "filename": "firmware.zip"
-        }
-      ]
-    },
-    "esp32s2": {
-      "display_name": "ESP32-S2",
-      "esptool_chip": "esp32s2",
-      "flash_size": "4MB",
-      "default_baud": "921600",
-      "default_freq": "40m",
-      "default_mode": "dio",
-      "baud_options": ["921600", "460800", "115200"],
-      "freq_options": ["40m", "80m"],
-      "mode_options": ["dio", "qio", "dout", "qout"],
-      "detection_keywords": ["esp", "cp210", "ch340", "ch9102", "jtag", "usb serial", "cdc"],
-      "partition_schemes": {
-        "Default 4MB (1.2MB APP / 1.5MB FS) ★": {
-          "firmware_offset": "0x10000",
-          "littlefs_offset": "0x290000",
-          "littlefs_size": "0x150000",
-          "recommended": true
-        },
-        "Huge APP (3MB APP / 960KB FS)": {
-          "firmware_offset": "0x10000",
-          "littlefs_offset": "0x310000",
-          "littlefs_size": "0xF0000"
-        },
-        "No OTA (2MB APP / 2MB FS)": {
-          "firmware_offset": "0x10000",
-          "littlefs_offset": "0x210000",
-          "littlefs_size": "0x1F0000"
-        }
-      },
-      "firmwares": [
-        {
-          "name": "ESP32-S2 Generic v1.0",
-          "url": "https://github.com/YOUR-USER/YOUR-REPO/raw/main/esp32s2/firmware.zip",
-          "filename": "firmware.zip"
-        }
-      ]
-    },
-    "esp32s3": {
-      "display_name": "ESP32-S3",
-      "esptool_chip": "esp32s3",
-      "flash_size": "8MB",
+    "esp32c3": {
+      "display_name": "ESP32C3 Dev Module",
       "default_baud": "921600",
       "default_freq": "80m",
-      "default_mode": "qio",
-      "baud_options": ["921600", "460800", "115200"],
-      "freq_options": ["40m", "80m", "120m"],
-      "mode_options": ["qio", "dio", "qout", "dout"],
-      "detection_keywords": ["esp", "cp210", "ch340", "ch9102", "jtag", "usb serial", "cdc"],
+      "default_mode": "dio",
       "partition_schemes": {
-        "Default 8MB (3MB APP / 4.5MB FS) ★": {
-          "firmware_offset": "0x10000",
-          "littlefs_offset": "0x310000",
-          "littlefs_size": "0x4F0000",
-          "recommended": true
+        "Default 4MB SPIFFS (1.2MB APP/1.5MB SPIFFS)": {
+          "flash_size": "4MB",
+          "firmware_offset": "0x0",
+          "littlefs_offset": "0x290000",
+          "littlefs_size": "0x150000"
         },
-        "Default 4MB (1.2MB APP / 1.5MB FS)": {
+        "Default 4MB LittleFS (1.25MB APP/1.4MB LittleFS)": {
+          "flash_size": "4MB",
+          "firmware_offset": "0x0",
+          "littlefs_offset": "0x290000",
+          "littlefs_size": "0x160000"
+        }
+      },
+      "firmwares": []
+    },
+    "esp32s3": {
+      "display_name": "ESP32S3 Dev Module",
+      "default_baud": "921600",
+      "default_freq": "80m",
+      "default_mode": "dio",
+      "partition_schemes": {
+        "Default 4MB SPIFFS (1.2MB APP/1.5MB SPIFFS)": {
+          "flash_size": "4MB",
+          "firmware_offset": "0x0",
+          "littlefs_offset": "0x290000",
+          "littlefs_size": "0x150000"
+        },
+        "Default 8MB SPIFFS": {
+          "flash_size": "8MB",
+          "firmware_offset": "0x0",
+          "littlefs_offset": "0x590000",
+          "littlefs_size": "0x270000"
+        }
+      },
+      "firmwares": []
+    },
+    "esp32s2": {
+      "display_name": "ESP32S2 Dev Module",
+      "default_baud": "921600",
+      "default_freq": "80m",
+      "default_mode": "dio",
+      "partition_schemes": {
+        "Default 4MB SPIFFS": {
+          "flash_size": "4MB",
+          "firmware_offset": "0x10000",
+          "littlefs_offset": "0x290000",
+          "littlefs_size": "0x150000"
+        }
+      },
+      "firmwares": []
+    },
+    "esp32c6": {
+      "display_name": "ESP32C6 Dev Module",
+      "default_baud": "921600",
+      "default_freq": "80m",
+      "default_mode": "dio",
+      "partition_schemes": {
+        "Default 4MB": {
+          "flash_size": "4MB",
+          "firmware_offset": "0x0",
+          "littlefs_offset": "0x290000",
+          "littlefs_size": "0x150000"
+        }
+      },
+      "firmwares": []
+    },
+    "esp32h2": {
+      "display_name": "ESP32H2 Dev Module",
+      "default_baud": "921600",
+      "default_freq": "16m",
+      "default_mode": "dio",
+      "partition_schemes": {
+        "Default 4MB": {
+          "flash_size": "4MB",
+          "firmware_offset": "0x0",
+          "littlefs_offset": "0x290000",
+          "littlefs_size": "0x150000"
+        }
+      },
+      "firmwares": []
+    },
+    "esp32c5": {
+      "display_name": "ESP32C5 Dev Module",
+      "default_baud": "921600",
+      "default_freq": "80m",
+      "default_mode": "dio",
+      "partition_schemes": {
+        "Default 4MB": {
+          "flash_size": "4MB",
+          "firmware_offset": "0x0",
+          "littlefs_offset": "0x290000",
+          "littlefs_size": "0x150000"
+        }
+      },
+      "firmwares": []
+    },
+    "esp32p4": {
+      "display_name": "ESP32P4 Dev Module",
+      "default_baud": "921600",
+      "default_freq": "80m",
+      "default_mode": "dio",
+      "partition_schemes": {
+        "Default 16MB": {
+          "flash_size": "16MB",
+          "firmware_offset": "0x0",
+          "littlefs_offset": "0xA90000",
+          "littlefs_size": "0x570000"
+        }
+      },
+      "firmwares": []
+    },
+    "esp32-wroom-da": {
+      "display_name": "ESP32-WROOM-DA Module",
+      "default_baud": "921600",
+      "default_freq": "40m",
+      "default_mode": "dio",
+      "partition_schemes": {
+        "Default 4MB": {
+          "flash_size": "4MB",
+          "firmware_offset": "0x10000",
+          "littlefs_offset": "0x290000",
+          "littlefs_size": "0x150000"
+        }
+      },
+      "firmwares": []
+    },
+    "esp32-wrover": {
+      "display_name": "ESP32 Wrover Module",
+      "default_baud": "921600",
+      "default_freq": "80m",
+      "default_mode": "dio",
+      "partition_schemes": {
+        "Default 4MB": {
+          "flash_size": "4MB",
           "firmware_offset": "0x10000",
           "littlefs_offset": "0x290000",
           "littlefs_size": "0x150000"
         },
-        "16MB (4MB APP / 11MB FS)": {
+        "Default 8MB": {
+          "flash_size": "8MB",
           "firmware_offset": "0x10000",
-          "littlefs_offset": "0x410000",
-          "littlefs_size": "0xAF0000"
+          "littlefs_offset": "0x590000",
+          "littlefs_size": "0x270000"
         }
       },
-      "firmwares": [
-        {
-          "name": "ESP32-S3 Generic v1.0",
-          "url": "https://github.com/YOUR-USER/YOUR-REPO/raw/main/esp32s3/firmware.zip",
-          "filename": "firmware.zip"
-        }
-      ]
+      "firmwares": []
     },
-    "esp32c6": {
-      "display_name": "ESP32-C6",
-      "esptool_chip": "esp32c6",
-      "flash_size": "4MB",
+    "esp32-pico-d4": {
+      "display_name": "ESP32 PICO-D4",
       "default_baud": "921600",
-      "default_freq": "40m",
+      "default_freq": "80m",
       "default_mode": "dio",
-      "baud_options": ["921600", "460800", "115200"],
-      "freq_options": ["40m", "80m"],
-      "mode_options": ["dio", "qio", "dout", "qout"],
-      "detection_keywords": ["esp", "cp210", "ch340", "ch9102", "jtag", "usb serial", "cdc"],
       "partition_schemes": {
-        "Default 4MB (1.2MB APP / 1.5MB FS) ★": {
+        "Default 4MB": {
+          "flash_size": "4MB",
           "firmware_offset": "0x10000",
           "littlefs_offset": "0x290000",
-          "littlefs_size": "0x150000",
-          "recommended": true
-        },
-        "Huge APP (3MB APP / 960KB FS)": {
-          "firmware_offset": "0x10000",
-          "littlefs_offset": "0x310000",
-          "littlefs_size": "0xF0000"
-        },
-        "No OTA (2MB APP / 2MB FS)": {
-          "firmware_offset": "0x10000",
-          "littlefs_offset": "0x210000",
-          "littlefs_size": "0x1F0000"
+          "littlefs_size": "0x150000"
         }
       },
-      "firmwares": [
-        {
-          "name": "ESP32-C6 Generic v1.0",
-          "url": "https://github.com/YOUR-USER/YOUR-REPO/raw/main/esp32c6/firmware.zip",
-          "filename": "firmware.zip"
-        }
-      ]
+      "firmwares": []
     },
-    "esp32h2": {
-      "display_name": "ESP32-H2",
-      "esptool_chip": "esp32h2",
-      "flash_size": "4MB",
-      "default_baud": "460800",
-      "default_freq": "48m",
+    "esp32s3-octal": {
+      "display_name": "ESP32S3 Dev Module Octal (WROOM2)",
+      "default_baud": "921600",
+      "default_freq": "80m",
       "default_mode": "dio",
-      "baud_options": ["460800", "115200"],
-      "freq_options": ["48m"],
-      "mode_options": ["dio", "qio"],
-      "detection_keywords": ["esp", "cp210", "ch340", "ch9102", "jtag", "usb serial", "cdc"],
       "partition_schemes": {
-        "Default 4MB (1.2MB APP / 1.5MB FS) ★": {
-          "firmware_offset": "0x10000",
-          "littlefs_offset": "0x290000",
-          "littlefs_size": "0x150000",
-          "recommended": true
-        },
-        "No OTA (2MB APP / 2MB FS)": {
-          "firmware_offset": "0x10000",
-          "littlefs_offset": "0x210000",
-          "littlefs_size": "0x1F0000"
+        "Default 8MB Octal": {
+          "flash_size": "8MB",
+          "firmware_offset": "0x0",
+          "littlefs_offset": "0x590000",
+          "littlefs_size": "0x270000"
         }
       },
-      "firmwares": [
-        {
-          "name": "ESP32-H2 Generic v1.0",
-          "url": "https://github.com/YOUR-USER/YOUR-REPO/raw/main/esp32h2/firmware.zip",
-          "filename": "firmware.zip"
+      "firmwares": []
+    },
+    "esp32-s3-box": {
+      "display_name": "ESP32-S3-Box",
+      "default_baud": "921600",
+      "default_freq": "80m",
+      "default_mode": "dio",
+      "partition_schemes": {
+        "Default 4MB": {
+          "flash_size": "4MB",
+          "firmware_offset": "0x0",
+          "littlefs_offset": "0x290000",
+          "littlefs_size": "0x150000"
         }
-      ]
+      },
+      "firmwares": []
+    },
+    "esp32-s3-usb-otg": {
+      "display_name": "ESP32-S3-USB-OTG",
+      "default_baud": "921600",
+      "default_freq": "80m",
+      "default_mode": "dio",
+      "partition_schemes": {
+        "Default 4MB": {
+          "flash_size": "4MB",
+          "firmware_offset": "0x0",
+          "littlefs_offset": "0x290000",
+          "littlefs_size": "0x150000"
+        }
+      },
+      "firmwares": []
+    },
+    "esp32s3-cam-lcd": {
+      "display_name": "ESP32S3 CAM LCD",
+      "default_baud": "921600",
+      "default_freq": "80m",
+      "default_mode": "dio",
+      "partition_schemes": {
+        "Default 4MB": {
+          "flash_size": "4MB",
+          "firmware_offset": "0x0",
+          "littlefs_offset": "0x290000",
+          "littlefs_size": "0x150000"
+        }
+      },
+      "firmwares": []
+    },
+    "esp32s2-native-usb": {
+      "display_name": "ESP32S2 Native USB",
+      "default_baud": "921600",
+      "default_freq": "80m",
+      "default_mode": "dio",
+      "partition_schemes": {
+        "Default 4MB": {
+          "flash_size": "4MB",
+          "firmware_offset": "0x10000",
+          "littlefs_offset": "0x290000",
+          "littlefs_size": "0x150000"
+        }
+      },
+      "firmwares": []
+    },
+    "esp32-wrover-kit": {
+      "display_name": "ESP32 Wrover Kit (all versions)",
+      "default_baud": "921600",
+      "default_freq": "80m",
+      "default_mode": "dio",
+      "partition_schemes": {
+        "Default 4MB": {
+          "flash_size": "4MB",
+          "firmware_offset": "0x10000",
+          "littlefs_offset": "0x290000",
+          "littlefs_size": "0x150000"
+        },
+        "Default 8MB": {
+          "flash_size": "8MB",
+          "firmware_offset": "0x10000",
+          "littlefs_offset": "0x590000",
+          "littlefs_size": "0x270000"
+        }
+      },
+      "firmwares": []
+    },
+    "esp32p4-core": {
+      "display_name": "ESP32P4 Core Board",
+      "default_baud": "921600",
+      "default_freq": "80m",
+      "default_mode": "dio",
+      "partition_schemes": {
+        "Default 16MB": {
+          "flash_size": "16MB",
+          "firmware_offset": "0x0",
+          "littlefs_offset": "0xA90000",
+          "littlefs_size": "0x570000"
+        }
+      },
+      "firmwares": []
     }
+  },
+  "global_settings": {
+    "http_timeout_seconds": 10,
+    "http_retries": 2,
+    "purchase_url": "https://www.facebook.com/profile.php?id=61586349835211",
+    "login_note": "This tool uses a credit system.\n1 credit = 1 successful flash.\nNew devices are automatically registered."
   }
 }
