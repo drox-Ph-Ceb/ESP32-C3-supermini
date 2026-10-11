@@ -30,15 +30,21 @@
     "update": "Portal Password: 00000000"
   },  
   {
-    "name": "ESP32-C3_Supermini_Special_Edition_01",
+    "name": "ESP32-C3_Supermini_SE_firmware_01",
     "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-c3_firmware01.bin",
     "filename": "ESP32-c3_firmware01.bin",
     "update": "Need Updated Flasher to flash this firmware. https://www.mediafire.com/file/av8c4lfrd24zxd8/ESP32_Flasher.zip/file"
   },
   {
-    "name": "ESP32-C3_Supermini_Special_Edition_02",
+    "name": "ESP32-C3_Supermini_SE_firmware_02",
     "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-C3_firmware_02.bin",
     "filename": "ESP32-C3_firmware_02.bin",
+    "update": "Need Updated Flasher to flash this firmware. https://www.mediafire.com/file/av8c4lfrd24zxd8/ESP32_Flasher.zip/file"
+  },
+  {
+    "name": "ESP32-C3_Supermini_SE_firmware_03",
+    "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-C3_Supermini_03.bin",
+    "filename": "ESP32-C3_Supermini_03.bin",
     "update": "Need Updated Flasher to flash this firmware. https://www.mediafire.com/file/av8c4lfrd24zxd8/ESP32_Flasher.zip/file"
   },
   {
