@@ -1,35 +1,5 @@
 [
   {
-    "name": "ESP32-C3_Supermini_Firmware_01",
-    "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/firmware_01.bin",
-    "filename": "firmware_01.bin",
-    "update": "Glass-style UI, many functions, auto-connect to main Wi-Fi"
-  },
-  {
-    "name": "ESP32-C3_Supermini_Firmware_02",
-    "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/firmware_02.bin",
-    "filename": "firmware_02.bin",
-    "update": "Minimalist design, allows custom package name launch"
-  },
-  {
-    "name": "ESP32-C3_Supermini_Firmware_03",
-    "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/firmware_03.bin",
-    "filename": "firmware_03.bin",
-    "update": "Multi-color design"
-  },
-  {
-    "name": "ESP32-C3_test",
-    "url": "https://github.com/drox-Ph-Ceb/ESP32-C3-supermini/raw/refs/heads/main/test01.bin",
-    "filename": "test",
-    "update": "A portal that never goes down, automatically switches to backup Wi-Fi networks on reboot"
-  },
-  {
-    "name": "ESP32-C3_Supermini_Firmware_05",
-    "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/firmware_05.bin",
-    "filename": "firmware_05.bin",
-    "update": "Portal Password: 00000000"
-  },
-  {
     "name": "ESP32-C3_Supermini_SE_Firmware_01",
     "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-C3_Supermini_SE_01.bin",
     "filename": "ESP32-C3_Supermini_SE_01.bin",
