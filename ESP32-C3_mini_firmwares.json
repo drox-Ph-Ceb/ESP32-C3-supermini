@@ -18,9 +18,9 @@
     "update": "Multi-color design"
   },
   {
-    "name": "ESP32-C3_Supermini_10-12-2026",
-    "url": "https://github.com/drox-Ph-Ceb/ESP32-C3-supermini/raw/refs/heads/main/frp-portal.bin",
-    "filename": "frp-portal",
+    "name": "ESP32-C3_test",
+    "url": "https://github.com/drox-Ph-Ceb/ESP32-C3-supermini/raw/refs/heads/main/test01.bin",
+    "filename": "test",
     "update": "A portal that never goes down, automatically switches to backup Wi-Fi networks on reboot"
   },
   {
