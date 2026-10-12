@@ -1,26 +1,26 @@
 [
   {
-    "name": "ESP32-C3_Supermini_SE_Firmware_01",
-    "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-C3_Supermini_SE_01.bin",
-    "filename": "ESP32-C3_Supermini_SE_01.bin",
+    "name": "ESP32-C3_Supermini_Firmware_SE01",
+    "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-C3_firmware_SE01.bin",
+    "filename": "ESP32-C3_firmware_SE01.bin",
     "update": "Requires Updated Flasher: https://www.mediafire.com/file/av8c4lfrd24zxd8/ESP32_Flasher.zip/file"
   },
   {
-    "name": "ESP32-C3_Supermini_SE_Firmware_02",
-    "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-C3_firmware_02.bin",
-    "filename": "ESP32-C3_Supermini_SE_02.bin",
+    "name": "ESP32-C3_Supermini_Firmware_SE02",
+    "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-C3_firmware_SE02.bin",
+    "filename": "ESP32-C3_firmware_SE02.bin",
     "update": "Requires Updated Flasher: https://www.mediafire.com/file/av8c4lfrd24zxd8/ESP32_Flasher.zip/file"
   },
   {
-    "name": "ESP32-C3_Supermini_SE_Firmware_03",
-    "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-C3_Supermini_SE_03.bin",
-    "filename": "ESP32-C3_Supermini_SE_03.bin",
+    "name": "ESP32-C3_Supermini_Firmware_SE03",
+    "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-C3_firmware_SE03.bin",
+    "filename": "ESP32-C3_firmware_SE03.bin",
     "update": "Requires Updated Flasher: https://www.mediafire.com/file/av8c4lfrd24zxd8/ESP32_Flasher.zip/file"
   },  
   {
-    "name": "ESP32-C3_Supermini_SE_Firmware_04",
-    "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP-C3_firmware_04.bin",
-    "filename": "ESP-C3_firmware_04.bin",
+    "name": "ESP32-C3_firmware_SE04.bin",
+    "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-C3_firmware_SE04.bin",
+    "filename": "ESP32-C3_firmware_SE04.bin",
     "update": "Requires Updated Flasher: https://www.mediafire.com/file/av8c4lfrd24zxd8/ESP32_Flasher.zip/file"
   },
   {
