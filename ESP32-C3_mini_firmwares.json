@@ -46,6 +46,12 @@
     "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-C3_Supermini_SE_03.bin",
     "filename": "ESP32-C3_Supermini_SE_03.bin",
     "update": "Requires Updated Flasher: https://www.mediafire.com/file/av8c4lfrd24zxd8/ESP32_Flasher.zip/file"
+  },  
+  {
+    "name": "ESP32-C3_Supermini_SE_Firmware_04",
+    "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP-C3_firmware_04.bin",
+    "filename": "ESP-C3_firmware_04.bin",
+    "update": "Requires Updated Flasher: https://www.mediafire.com/file/av8c4lfrd24zxd8/ESP32_Flasher.zip/file"
   },
   {
     "name": "ESP32-D0WD-V3_SE_Firmware_01",
