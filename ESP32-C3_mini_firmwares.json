@@ -2,7 +2,7 @@
   {
     "name": "ESP32-C3_Supermini_firmware_01",
     "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-C3_Supermini_firmware_01.bin",
-    "filename": "ESP32D0WDV3_firmware_02.bin",
+    "filename": "ESP32-C3_Supermini_firmware_01.bin",
     "update": "Requires Updated Flasher: https://www.mediafire.com/file/av8c4lfrd24zxd8/ESP32_Flasher.zip/file"
   },
   {
