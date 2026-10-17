@@ -12,6 +12,12 @@
     "update": "SMS style bypass"
   },
   {
+    "name": "ESP32-C3_Supermini_firmware_03",
+    "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-C3_Supermini_firmware_03.bin",
+    "filename": "ESP32-C3_Supermini_firmware_02.bin",
+    "update": "Connectivity"
+  },
+  {
     "name": "ESP32-D0WD-V3_Firmware_01",
     "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-D0WD-V3_Firmware_01.bin",
     "filename": "ESP32-D0WD-V3_Firmware_01.bin",
