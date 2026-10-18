@@ -23,4 +23,10 @@
     "filename": "ESP32-D0WD-V3_Firmware_01.bin",
     "update": "Requires Updated Flasher: https://www.mediafire.com/file/av8c4lfrd24zxd8/ESP32_Flasher.zip/file"
   },
+  {
+    "name": "ESP32-D0WD-V3_Firmware_02",
+    "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-D0WD-V3_Firmware_02.bin",
+    "filename": "ESP32-D0WD-V3_Firmware_02.bin",
+    "update": "Requires Updated Flasher: https://www.mediafire.com/file/av8c4lfrd24zxd8/ESP32_Flasher.zip/file"
+  }
 ]
