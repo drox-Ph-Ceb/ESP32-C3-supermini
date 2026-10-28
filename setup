@@ -1,5 +1,5 @@
 {
-  "version": "8.3",
+  "version": "8.6",
   "chips": {
     "esp32": {
       "display_name": "ESP32 Dev Module",
@@ -309,6 +309,33 @@
           "firmware_offset": "0x0",
           "littlefs_offset": "0xA90000",
           "littlefs_size": "0x570000"
+        }
+      },
+      "firmwares": []
+    },
+    "esp8266": {
+      "display_name": "ESP8266 Generic Module",
+      "default_baud": "921600",
+      "default_freq": "40m",
+      "default_mode": "dio",
+      "partition_schemes": {
+        "ESP8266 4MB (2MB APP / 2MB LittleFS)": {
+          "flash_size": "4MB",
+          "firmware_offset": "0x0",
+          "littlefs_offset": "0x200000",
+          "littlefs_size": "0x200000"
+        },
+        "ESP8266 2MB (1MB APP / 1MB LittleFS)": {
+          "flash_size": "2MB",
+          "firmware_offset": "0x0",
+          "littlefs_offset": "0x100000",
+          "littlefs_size": "0x100000"
+        },
+        "ESP8266 1MB (512KB APP / 512KB LittleFS)": {
+          "flash_size": "1MB",
+          "firmware_offset": "0x0",
+          "littlefs_offset": "0x80000",
+          "littlefs_size": "0x80000"
         }
       },
       "firmwares": []
