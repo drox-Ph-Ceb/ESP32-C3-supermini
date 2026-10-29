@@ -3,7 +3,7 @@
     "name": "ESP32-C3_Supermini_firmware_01",
     "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-C3_Supermini_firmware_01.bin",
     "filename": "ESP32-C3_Supermini_firmware_01.bin",
-    "update": "Requires Updated Flasher: https://www.mediafire.com/file/av8c4lfrd24zxd8/ESP32_Flasher.zip/file"
+    "update": "https://www.mediafire.com/file/s3oe5ofrzyc3wb8/ESP32_Flasher.zip/file"
   },
   {
     "name": "ESP32-C3_Supermini_firmware_02",
@@ -27,13 +27,13 @@
     "name": "ESP32_D0WD-V3_Firmware_01",
     "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-D0WD-V3_Firmware_01.bin",
     "filename": "ESP32_D0WD-V3_Firmware_01.bin",
-    "update": "Requires Updated Flasher: https://www.mediafire.com/file/av8c4lfrd24zxd8/ESP32_Flasher.zip/file"
+    "update": "Requires Updated Flasher: https://www.mediafire.com/file/s3oe5ofrzyc3wb8/ESP32_Flasher.zip/file"
   },
   {
     "name": "ESP32_D0WD-V3_Firmware_02",
     "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-D0WD-V3_Firmware_02.bin",
     "filename": "ESP32_D0WD-V3_Firmware_02.bin",
-    "update": "Requires Updated Flasher: https://www.mediafire.com/file/av8c4lfrd24zxd8/ESP32_Flasher.zip/file"
+    "update": "Requires Updated Flasher: https://www.mediafire.com/file/s3oe5ofrzyc3wb8/ESP32_Flasher.zip/file"
   },
   {
     "name": "ESP32_JAM_FU-firmware_v03",
@@ -45,6 +45,6 @@
     "name": "ESP8266EX_Firmware_01",
     "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP8266EX%20_FRP-Portal_firmware.bin",
     "filename": "ESP8266EX _FRP-Portal_firmware.bin",
-    "update": "JAM FU EDITION"
+    "update": "JAM FU EDITION need latest flasher https://www.mediafire.com/file/s3oe5ofrzyc3wb8/ESP32_Flasher.zip/file"
   }
 ]
