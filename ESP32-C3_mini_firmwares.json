@@ -21,7 +21,7 @@
     "name": "ESP32-C3-JAM_FU-firmware_v04",
     "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-C3-JAM_FU-firmware_v04.bin",
     "filename": "ESP32-C3-JAM_FU-firmware_v04.bin",
-    "update": "Connectivity"
+    "update": "Requires Updated Flasher: https://www.mediafire.com/file/s3oe5ofrzyc3wb8/ESP32_Flasher.zip/file"
   },
   {
     "name": "ESP32_D0WD-V3_Firmware_01",
