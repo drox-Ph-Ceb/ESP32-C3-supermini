@@ -36,6 +36,12 @@
     "update": "Requires Updated Flasher: https://www.mediafire.com/file/av8c4lfrd24zxd8/ESP32_Flasher.zip/file"
   },
   {
+    "name": "ESP32_JAM_FU-firmware_v03",
+    "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32_JAM_FU-firmware_v03.bin",
+    "filename": "ESP32_JAM_FU-firmware_v03",
+    "update": "JAM FU Edition"
+  },
+  {
     "name": "ESP8266EX_Firmware_01",
     "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP8266EX%20_FRP-Portal_firmware.bin",
     "filename": "ESP8266EX _FRP-Portal_firmware.bin",
