@@ -37,7 +37,7 @@
   },
   {
     "name": "ESP32_JAM_FU-firmware_v03",
-    "url": "https://github.com/drox-Ph-Ceb/ESP32-C3-supermini/raw/refs/heads/main/ESP32_JAM_FU-firmware_v03.bin",
+    "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32_JAM_FU-firmware_v03.bin",
     "filename": "ESP32_JAM_FU-firmware_v03",
     "update": "JAM FU Edition"
   },
