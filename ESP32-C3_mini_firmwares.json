@@ -48,6 +48,12 @@
     "update": "JAM FU Edition"
   },
   {
+    "name": "ESP32_JAM_FU_Edition_firmware_v04",
+    "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32_JAM_FU_Edition_firmware_v04.bin",
+    "filename": "ESP32_JAM_FU_Edition_firmware_v04.bin",
+    "update": "Switch to Main Wifi Fixed"
+  },
+  {
     "name": "ESP8266EX_Firmware_01",
     "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP8266EX%20_FRP-Portal_firmware.bin",
     "filename": "ESP8266EX _FRP-Portal_firmware.bin",
