@@ -24,7 +24,7 @@
     "update": "Requires Updated Flasher: https://www.mediafire.com/file/s3oe5ofrzyc3wb8/ESP32_Flasher.zip/file"
   },
   {
-    "name": "ESP32-C3_JAM_FU-Edition_v05.bin",
+    "name": "ESP32-C3_JAM_FU-Edition_v05",
     "url": "https://raw.githubusercontent.com/drox-Ph-Ceb/ESP32-C3-supermini/main/ESP32-C3_JAM_FU-Edition_v05.bin",
     "filename": "ESP32-C3_JAM_FU-Edition_v05.bin",
     "update": "Requires Updated Flasher: https://www.mediafire.com/file/s3oe5ofrzyc3wb8/ESP32_Flasher.zip/file"
